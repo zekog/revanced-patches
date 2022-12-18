@@ -49,7 +49,7 @@ class ThemePatch : ResourcePatch {
         var accentColor: String? by option(
             PatchOption.StringOption(
                 key = "accentColor",
-                default = "#ff1ed760",
+                default = "#8F00FF",
                 title = "Accent color",
                 description = "The accent color ('spotify green' by default). Can be a hex color or a resource reference.",
             )
