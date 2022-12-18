@@ -57,7 +57,7 @@ class ThemePatch : ResourcePatch {
         var accentPressedColor: String? by option(
             PatchOption.StringOption(
                 key = "accentPressedColor",
-                default = "#ff169c46",
+                default = "#800080",
                 title = "Pressed accent for the dark theme",
                 description = "The color when accented buttons are pressed, by default slightly darker than accent. Can be a hex color or a resource reference.",
             )
